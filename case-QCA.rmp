@@ -68,6 +68,7 @@
       <connect from_op="Set Role" from_port="example set output" to_op="Write CSV" to_port="input"/>
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
+      <description align="center" color="yellow" colored="false" height="105" resized="false" width="180" x="51" y="146">dit is een test</description>
     </process>
   </operator>
 </process>
