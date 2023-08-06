@@ -54,7 +54,7 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="SYSTEM"/>
       </operator>
-      <operator activated="false" class="python_scripting:execute_python" compatibility="10.0.001" expanded="true" height="82" name="Execute Python" width="90" x="782" y="85">
+      <operator activated="false" class="python_scripting:execute_python" compatibility="10.0.000" expanded="true" height="82" name="Execute Python" width="90" x="782" y="85">
         <parameter key="script" value="import pandas&#10;&#10;# rm_main is a mandatory function, &#10;# the number of arguments has to be the number of input ports (can be none),&#10;#     or the number of input ports plus one if &quot;use macros&quot; parameter is set&#10;# if you want to use macros, use this instead and check &quot;use macros&quot; parameter:&#10;#def rm_main(data,macros):&#10;def rm_main(data):&#10;    print('Hello, world!')&#10;    # output can be found in Log View&#10;    print(type(data))&#10;&#10;    #your code goes here&#10;&#10;    #for example:&#10;    data2 = pandas.DataFrame([3,5,77,8])&#10;&#10;    # connect 2 output ports to see the results&#10;    return data, data2"/>
         <parameter key="notebook_cell_tag_filter" value=""/>
         <parameter key="use_default_python" value="true"/>
@@ -68,7 +68,7 @@
       <connect from_op="Set Role" from_port="example set output" to_op="Write CSV" to_port="input"/>
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
-      <description align="center" color="yellow" colored="false" height="105" resized="false" width="180" x="51" y="146">dit is een test</description>
+      <description align="center" color="yellow" colored="false" height="105" resized="false" width="180" x="149" y="210">Type your comment</description>
     </process>
   </operator>
 </process>
